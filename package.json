@@ -1,0 +1,23 @@
+{
+  "name": "pony-marquee",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helsonxiao/pony-marquee.git"
+  },
+  "keywords": [
+    "marquee",
+    "ponyfill"
+  ],
+  "author": "helsonxiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helsonxiao/pony-marquee/issues"
+  },
+  "homepage": "https://github.com/helsonxiao/pony-marquee#readme"
+}
