@@ -7,11 +7,16 @@
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `first`  | `first`   | The first name  | `string` | `undefined` |
-| `last`   | `last`    | The last name   | `string` | `undefined` |
-| `middle` | `middle`  | The middle name | `string` | `undefined` |
+| Property        | Attribute        | Description | Type             | Default    |
+| --------------- | ---------------- | ----------- | ---------------- | ---------- |
+| `autoDetection` | `auto-detection` |             | `boolean`        | `false`    |
+| `delay`         | `delay`          |             | `number`         | `0`        |
+| `direction`     | `direction`      |             | `"ltr" \| "rtl"` | `'rtl'`    |
+| `gutter`        | `gutter`         |             | `number`         | `32`       |
+| `loop`          | `loop`           |             | `number`         | `Infinity` |
+| `pauseOnHover`  | `pause-on-hover` |             | `boolean`        | `true`     |
+| `speed`         | `speed`          |             | `number`         | `20`       |
+| `text`          | `text`           |             | `string`         | `''`       |
 
 
 ----------------------------------------------
