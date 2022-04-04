@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'pony-marquee-wc',
+  namespace: 'pony-marquee',
   outputTargets: [
     {
       type: 'dist',

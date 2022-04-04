@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
     <title>Stencil Component Starter</title>
 
-    <script type="module" src="/build/pony-marquee-wc.esm.js"></script>
-    <script nomodule src="/build/pony-marquee-wc.js"></script>
+    <script type="module" src="/build/pony-marquee.esm.js"></script>
+    <script nomodule src="/build/pony-marquee.js"></script>
   </head>
   <body>
-    <pony-marquee first="Stencil" last="'Don't call me a framework' JS"></pony-marquee>
+    <pony-marquee
+      text="Hello World!Hello World!Hello World!Hello World!Hello World!"
+    ></pony-marquee>
+    <pony-marquee
+      auto-detection="true"
+      speed="100"
+      delay="1000"
+      loop="3"
+      direction="ltr"
+      text="Hello World!Hello World!Hello World!Hello World!Hello World!"
+    ></pony-marquee>
   </body>
 </html>

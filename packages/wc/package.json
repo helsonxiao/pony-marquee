@@ -1,6 +1,6 @@
 {
-  "name": "pony-marquee-wc",
-  "version": "0.0.1",
+  "name": "pony-marquee",
+  "version": "0.1.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -9,16 +9,21 @@
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/pony-marquee-wc/pony-marquee-wc.esm.js",
+  "unpkg": "dist/pony-marquee/pony-marquee.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/helsonxiao/pony-marquee.git"
   },
+  "keywords": [
+    "marquee",
+    "ponyfill"
+  ],
   "files": [
     "dist/",
     "loader/"
   ],
   "scripts": {
+    "prepack": "npm run build",
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",

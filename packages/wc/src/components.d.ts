@@ -7,18 +7,14 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface PonyMarquee {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+        "autoDetection": boolean;
+        "delay": number;
+        "direction": 'ltr' | 'rtl';
+        "gutter": number;
+        "loop": number;
+        "pauseOnHover": boolean;
+        "speed": number;
+        "text": string;
     }
 }
 declare global {
@@ -34,18 +30,14 @@ declare global {
 }
 declare namespace LocalJSX {
     interface PonyMarquee {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+        "autoDetection"?: boolean;
+        "delay"?: number;
+        "direction"?: 'ltr' | 'rtl';
+        "gutter"?: number;
+        "loop"?: number;
+        "pauseOnHover"?: boolean;
+        "speed"?: number;
+        "text"?: string;
     }
     interface IntrinsicElements {
         "pony-marquee": PonyMarquee;

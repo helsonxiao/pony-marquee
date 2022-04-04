@@ -1,3 +1,44 @@
 :host {
   display: block;
 }
+
+.marquee.paused {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.marquee.paused::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee.playing {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.marquee.playing.pause-on-hover:hover > div {
+  animation-play-state: paused;
+}
+
+.marquee.playing > div {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100%;
+  animation-name: scroll;
+  animation-timing-function: linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
