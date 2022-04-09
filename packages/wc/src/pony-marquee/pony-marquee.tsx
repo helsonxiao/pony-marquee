@@ -98,15 +98,19 @@ export class PonyMarquee {
       animationDelay,
       MozAnimationDelay: animationDelay,
       WebkitAnimationDelay: animationDelay,
+      OAnimationDelay: animationDelay,
       animationDirection,
       MozAnimationDirection: animationDirection,
       WebkitAnimationDirection: animationDirection,
+      OAnimationDirection: animationDirection,
       animationDuration,
       MozAnimationDuration: animationDuration,
       WebkitAnimationDuration: animationDuration,
+      OAnimationDuration: animationDuration,
       animationIterationCount,
       MozAnimationIterationCount: animationIterationCount,
       WebkitAnimationIterationCount: animationIterationCount,
+      OAnimationIterationCount: animationIterationCount,
     }
   }
 
