@@ -1,5 +1,6 @@
 import { newE2EPage } from '@stencil/core/testing';
 
+// TODO: add test
 describe('pony-marquee', () => {
   it('renders', async () => {
     const page = await newE2EPage();
